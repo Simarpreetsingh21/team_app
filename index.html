@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> The Teams | Website</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    
+    <section class="header">
+        <nav>
+            <a href="index.html">
+                <img src="images/logo.webp">
+            </a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fas fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="#">ABOUT</a></li>
+                        <li><a href="#">COURSE</a></li>
+                        <li><a href="#">BLOG</a></li>
+                        <li><a href="#">CONTACT</a></li>
+                    </ul>
+                </div>
+            <i class="fas fa-bars" onclick="showMenu()"></i>
+        </nav>
+    
+    <div class="text-box">
+       <h1>The Teams Page</h1> 
+        <p>Learn from Scientists, Research Scholars from the top institute in the WORLD...</p>
+
+        <a href="" class="btn">Visit Us to Know More</a>
+
+    </div>
+    
+    </section>
+
+<!--           CAMPUS  SECTION           -->
+
+<section class="campus">
+    <h1> Campus </h1>
+    <p>Hover over your Favourite University for more details </p>
+
+    <div class="small-container">
+
+        <div class="row">
+            <div class="col-3">
+                <img src="/images/1.jpg" >
+            <div class="content">
+                <h3>Cambridge University</h3>
+            </div>
+        </div>
+        <div class="col-3">
+            <img src="/images/2.jpg" >
+            <div class="content">
+                <h3>Harvard University</h3>
+            </div>
+        </div>
+        <div class="col-3">
+            <img src="/images/3.webp" >
+            <div class="content">
+                <h3>University of California</h3>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-3">
+            <img src="/images/4.jpg" >
+            <div class="content">
+                <h3>Eth Zurich</h3>
+            </div>
+        </div>
+        <div class="col-3">
+            <img src="/images/5.png" >
+            <div class="content">
+                <h3>Max Planck</h3>
+            </div>
+        </div>
+        <div class="col-3">
+            <img src="/images/6.jpg" >
+            <div class="content">
+                <h3>University of Edinberg</h3>
+            </div>
+        </div>
+        
+        </div>
+    </div>
+</section>
+
+
+
+<!--    TESTIMONIALS  SECTION       -->
+
+<section class="mentors">
+
+    <h1>Meet Your Mentors</h1>
+
+    <div class="row">
+        <div class="test-col">
+            <img src="images/user2.jpg">
+            <div>
+                <h3>Shubham</h3>
+                <p>Cambridge University</p>
+            </div>
+        </div>
+        
+        <div class="test-col">
+            <img src="images/user2.jpg">
+            <div>
+                <h3>Sahil</h3>
+                <p>Harvard University</p>
+            </div>
+        </div>
+
+        <div class="test-col">
+            <img src="images/user2.jpg">
+            <div>
+                <h3>Gurpreet Singh</h3>
+                <p>Max Planck</p>
+            </div>
+        </div>
+
+        <div class="test-col">
+            <img src="images/user4.jpg">
+            <div>
+                <h3>Sakshi</h3>
+                <p>University of Edinberg</p>
+            </div>
+        </div>
+
+
+    </div>
+
+
+</section>
+
+
+<!--    MENTOR AND ADVISOR  SECTION       -->
+
+<section class="mentors">
+
+    <h1> Mentors & Advisors </h1>
+
+    <div class="row">
+        <div class="ment-col">
+            <img src="images/user2.jpg">
+            <div>
+                <h3>Dr. Omkar</h3>
+                <p>Principal Project Scientist</p>
+            </div>
+        </div>
+        
+        
+        <div class="ment-col">
+            <img src="images/user2.jpg">
+            <div>
+                <h3>Akhil Tripathi</h3>
+                <a href="" class="btn">Message Him Now</a>
+            </div>
+        </div>
+
+        <div class="ment-col">
+            <img src="images/user2.jpg">
+            <div>
+                <h3>Vivek Dwivedi</h3>
+                <a href="" class="btn">Message Him Now</a>
+            </div>
+        </div>
+
+
+    </div>
+
+
+</section>
+
+
+<!--           CALL SECTION        -->
+
+<section class="call">
+    <h1>Enroll for Our Variety of Online Courses<br>Anywhere From The World</h1>
+    <a href="" class="btn">CONTACT US</a>
+</section>
+
+
+
+<!--      footer          -->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat sint ipsam eligendi,<br> quod sed ipsa quasi illum vero incidunt obcaecati. </p>
+
+        <div class="icons">
+
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-linkedin"></i>
+        </div>
+        
+        <p>MADE BY - SIMARPREET SINGH</p>
+    
+    </section>
+
+
+
+
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu(){
+            navLinks.style.right = "-200px"
+        }
+
+
+    </script>
+
+</body>
+</html> 
